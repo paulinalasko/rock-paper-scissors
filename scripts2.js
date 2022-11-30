@@ -42,7 +42,8 @@ const game = () => {
         pScore.textContent = playerScore;
         cScore.textContent = computerScore;
     }
-
+    
+    //Compares Match
     const compareRound = (playerChoice, computerChoice) => {
         const winner = document.querySelector('.winner');
         if (playerChoice == computerChoice) {
